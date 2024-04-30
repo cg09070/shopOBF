@@ -1,0 +1,2 @@
+[28-Apr-2024 19:27:06 America/Chicago] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET https://garys-designs.com/symfony/public/index.php/" (from "https://garys-designs.com/symfony/")" at RouterListener.php line 127
+[28-Apr-2024 19:39:14 America/Chicago] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET https://garys-designs.com/symfony/public/index.php/" (from "https://garys-designs.com/symfony/")" at RouterListener.php line 127

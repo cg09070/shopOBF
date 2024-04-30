@@ -13,7 +13,7 @@
         {% endblock %}
     </head>
     <body>
-        <div class="flex flex-col justify-between min-h-screen relative">
+        <div class="flex flex-col min-h-screen relative">
             <div>
                 <header class="h-[114px] shrink-0 flex flex-col sm:flex-row items-center sm:justify-between py-4 sm:py-0 px-6 border-b border-white/20 shadow-md">
                     <a href="{{ path('homepage') }}">
@@ -36,11 +36,13 @@
                 {% block body %}
                     {{ include("main/_banner.html.twig") }}
                     {{ include("main/_content.html.twig") }}
+                    {#
                     {{ include("main/_featured.html.twig") }}
+                    #}
                 {% endblock %}
             </div>
             <div>
-                <footer class="h-[115px] text-white flex flex-col sm:flex-row items-center sm:justify-between py-4 sm:py-0 px-6 border-t-2 bg-slate-700">
+                <footer class="h-96 text-white flex flex-col sm:flex-row items-center sm:justify-between py-4 sm:py-0 px-6 border-t-2 bg-slate-700">
                     <h1>Overcoming By Faith Ministries</h1>
                     <nav id="footerLinks">
                         {% for footerLink in footerLinks %}

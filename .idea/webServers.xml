@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02e435b4-53b8-4beb-8c92-34f6ac2b569d" name="garys-designs.com" url="https://garys-designs.com/symfony">
+        <fileTransfer rootFolder="/public_html/symfony" host="ftp.garys-designs.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
