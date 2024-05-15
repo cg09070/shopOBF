@@ -63,7 +63,7 @@ class NavLinkRepository
             new NavLink(
                 2,
                 'instagram',
-                'https://instagram.com'
+                'https://instagram.com',
             ),
             new NavLink(
                 3,
