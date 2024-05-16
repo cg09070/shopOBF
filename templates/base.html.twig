@@ -18,12 +18,12 @@
         <div>
             <div id="header_div">
                 <header class="row align-items-center" style="margin:auto;">
-                    <div class="col">
+                    <div class="col-md-2">
                         <a class="link-underline link-underline-opacity-0" href="{{ path('homepage') }}">
                             <img src="{{ asset('images/shop-logo.webp') }}" alt="shop logo">
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-md-5 text-center">
                         <nav id="headerLinks" class="fw-bold">
                             {% for headerLink in headerLinks %}
                                 <a class="link-offset-2-hover link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover px-3" href="{{ headerLink.path }}">
@@ -32,9 +32,9 @@
                             {% endfor %}
                         </nav>
                     </div>
-                    <div class="col">
+                    <div class="col-md-2">
                         <div class="buttonLinks">
-                            <a href="{{ path('search') }}"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a href="{{ path('search') }}" style="padding-right:20px;"><i class="fa-solid fa-magnifying-glass"></i></a>
                             <a href="{{ path('cart') }}"><i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
@@ -44,10 +44,7 @@
                 {% block body %}
                     {{ include("main/_banner.html.twig") }}
                     {{ include("main/_content.html.twig") }}
-                    {#
-
-                     {{ include("main/_featured.html.twig") }}
-                    #}
+                    {{ include("main/_featured.html.twig") }}
                 {% endblock %}
             </div>
             <div id="footer_div">

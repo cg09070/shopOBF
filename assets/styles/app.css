@@ -20,8 +20,6 @@ body {
 }
 
 header, footer {
-    height: 100%;
-    margin: auto;
     width: 60%;
 }
 
@@ -30,5 +28,5 @@ header, footer {
 }
 
 .buttonLinks {
-    display: inline-block;
+    float: right;
 }
