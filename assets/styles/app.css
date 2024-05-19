@@ -2,7 +2,7 @@ body {
     font-size: 14px;
 }
 
-#header_div, #header_div img {
+#header_div {
     height: 115px;
 }
 
@@ -17,14 +17,6 @@ body {
 
 #footer_div, #footer_div a, #content-h1 {
     color: white;
-}
-
-header, footer {
-    width: 60%;
-}
-
-#headerLinks, #footerLinks {
-    display: inline-block;
 }
 
 .buttonLinks {
